@@ -1,0 +1,15 @@
+body {
+    padding-bottom: 3rem;
+    background-color: #0E1821;
+  }
+  
+  .us {
+      width: 10vw;
+      border-radius: 100%;
+  }
+
+.card-title {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+  
