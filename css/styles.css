@@ -12,6 +12,35 @@ body {
     border-radius: 100%;
 }
 
+.fun-outer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vh 3vw;
+    height: 95vh;
+}
+
+.fun-text {
+    width: 30vw;
+    text-align: center;
+}
+
+.fun-text-top > h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 3vw;
+}
+
+.fun-text-bottom > h1 {
+    font-family: 'Playfair Display', serif;
+    color: khaki;
+    font-size: 3vw;
+}
+
+.fun {
+    width: 55vw;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -53,7 +82,7 @@ body {
   left: 0;
   min-width: 100%;
   height: auto;
-  background-color: #0E1821;
+  background-color: white;
 }
 
 .carousel-caption > img {
@@ -61,7 +90,8 @@ body {
 }
 
 .carousel-indicators {
-    background-color: #0E1821;
+    background-color: rgb(104, 102, 102);
+    z-index: 100;
 }
 
 .carousel-control-prev {
@@ -78,9 +108,9 @@ margin-right: 6vw;
 }
 
 .carousel-caption {
-    background-color: #0E1821;
+    background-color: rgb(104, 102, 102);
 }
 .carousel {
-    background-color: #0E1821;
+    background-color: rgb(104, 102, 102);
 }
 
