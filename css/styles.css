@@ -22,6 +22,9 @@ body {
 }
 
 .fun-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30vw;
     text-align: center;
 }
@@ -38,8 +41,15 @@ body {
     font-size: 3vw;
 }
 
+.arrow {
+    align-self: flex-end;
+    width: 3vw;
+    margin-top: 8vh;
+    margin-right: 8vw;
+}
+
 .fun {
-    width: 55vw;
+    width: 45vw;
 }
 
 
