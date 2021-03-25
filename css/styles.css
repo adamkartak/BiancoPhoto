@@ -63,6 +63,7 @@ body {
     .fun-outer {
         display: flex;
         flex-direction: column-reverse;
+        height: 80vh;
     }
 
     .fun {
@@ -124,7 +125,7 @@ body {
 }
 @media (max-width: 600px) {
     .carousel-item {
-        height: 75vw;
+        height: 85vw;
     }
 }
 
