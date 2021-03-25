@@ -110,21 +110,21 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 55vw;
+  height: 60vw;
 }
 @media (max-width: 1080px) {
-    .carousel-item {
-        height: 60vw;
-    }
-}
-@media (max-width: 840px) {
     .carousel-item {
         height: 65vw;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 840px) {
     .carousel-item {
         height: 70vw;
+    }
+}
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 75vw;
     }
 }
 
