@@ -27,6 +27,7 @@ body {
     align-items: center;
     width: 30vw;
     text-align: center;
+    /* background-color: aquamarine; */
 }
 
 .fun-text-top > h1 {
@@ -50,6 +51,41 @@ body {
 
 .fun {
     width: 45vw;
+}
+
+@media (max-width: 600px) {
+    .fun-outer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fun {
+        width: 80vw;
+        height: auto;
+    }
+
+    .fun-text {
+        width: 80vw;
+    }
+
+    .fun-text-top > h1 {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        font-size: 6vw;
+    }
+    
+    .fun-text-bottom > h1 {
+        font-family: 'Playfair Display', serif;
+        color: khaki;
+        font-size: 7vw;
+    }
+
+    .arrow {
+        width: 5vw;
+        align-self: center;
+        margin-left: 34vw;
+        margin-top: 4vh;
+    }
 }
 
 
@@ -115,6 +151,18 @@ margin-left: 6vw;
 /* background-color: cyan; */
 width: 10vw;
 margin-right: 6vw;
+}
+
+@media (max-width: 600px) {
+    .carousel-control-prev {
+        /* background-color: cyan; */
+        width: 10vw;        
+        }
+        
+        .carousel-control-next {
+        /* background-color: cyan; */
+        width: 10vw;
+        }
 }
 
 .carousel-caption {
