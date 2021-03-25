@@ -12,6 +12,12 @@ body {
     border-radius: 100%;
 }
 
+@media (max-width: 600px) {
+    .bianco {
+        font-size: 3vw;
+    }
+}
+
 .fun-outer {
     display: flex;
     flex-direction: row-reverse;
