@@ -3,18 +3,37 @@ body {
     background-color: #0E1821;
 }
 
-.us {
-    width: 10vw;
-    border-radius: 100%;
+.us1 {
+    width: 80vw;
+    border-radius: 100%;  
+    align-self: center;  
 }
 
-.card-title {
+.us-box {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+  
+}
+.us-box > p {
+    margin-top: 4vh;
+}
+
+.us-text {
+    font-size: 5vw;
+    text-align: center;
 }
 
 .about {
     display: none;
+}
+
+.us-box1 {
+    margin-top: 5vh;
+    font-size: 5vw;
 }
 
 @media (max-width: 600px) {
@@ -48,4 +67,3 @@ footer > div > p > a {
     text-decoration: none;
     color: bisque;
 }
-  

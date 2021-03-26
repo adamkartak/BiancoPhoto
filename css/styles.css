@@ -12,9 +12,24 @@ body {
     border-radius: 100%;
 }
 
+.about {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .bianco {
         font-size: 3vw;
+    }
+    .us {
+        display: none;
+    }
+
+    .about-us {
+        display: none;
+    }
+
+    .about {
+        display: inline;
     }
 }
 
@@ -179,3 +194,16 @@ margin-right: 6vw;
     background-color: rgb(104, 102, 102);
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.credit {
+    text-align: center;
+}
+
+footer > div > p > a {
+    text-decoration: none;
+    color: bisque;
+}

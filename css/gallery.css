@@ -8,13 +8,44 @@ img {
     height: auto;
 }
 
+.about {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .bianco {
         font-size: 3vw;
     }
+
+    .us {
+        display: none;
+    }
+
+    .about-us {
+        display: none;
+    }
+
+    .about {
+        display: inline;
+    }
 }
   
 .us {
-      width: 10vw;
-      border-radius: 100%;
+    width: 10vw;
+    border-radius: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.credit {
+    padding-top: 4vh;
+    text-align: center;
+}
+
+footer > div > p > a {
+    text-decoration: none;
+    color: bisque;
 }
