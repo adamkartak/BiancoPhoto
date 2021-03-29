@@ -7,6 +7,11 @@ body {
   background-color: #0E1821;
 }
 
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
+
 .us {
     width: 10vw;
     border-radius: 100%;
@@ -55,12 +60,14 @@ body {
     font-family: 'Playfair Display', serif;
     color: white;
     font-size: 3vw;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.315);
 }
 
 .fun-text-bottom > h1 {
     font-family: 'Playfair Display', serif;
     color: khaki;
     font-size: 3vw;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.253);
 }
 
 .arrow {
@@ -72,6 +79,8 @@ body {
 
 .fun {
     width: 45vw;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.226));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.219));
 }
 
 @media (max-width: 600px) {

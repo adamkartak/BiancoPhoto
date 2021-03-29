@@ -3,6 +3,11 @@ body {
     background-color: #0E1821;
 }
 
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
+
 .us {
     width: 10vw;
     border-radius: 100%;
