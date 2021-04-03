@@ -6,7 +6,7 @@ body {
 a[href^=tel] {
     text-decoration:inherit;
     color: inherit;
- }
+}
 
 img {
     width: 100%;
@@ -33,6 +33,14 @@ img {
     .about {
         display: inline;
     }
+}
+
+.lead {
+  text-align: start;
+}
+
+li {
+  text-align: start;
 }
 
 .card-text {
